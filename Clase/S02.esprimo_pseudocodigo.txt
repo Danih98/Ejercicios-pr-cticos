@@ -1,0 +1,25 @@
+
+
+Inicio
+
+  Pedir número al usuario
+  Leer numero
+
+  Si numero es menor o igual a 1, entonces
+    Mostrar "No es primo"
+  Sino
+    EsPrimo = Verdadero
+    Para i desde 2 hasta numero - 1, hacer
+      Si numero es divisible por i, entonces
+        EsPrimo = Falso
+        Salir del bucle
+      Fin Si
+    Fin Para
+
+    Si EsPrimo es Verdadero, entonces
+      Mostrar "Es primo"
+    Sino
+      Mostrar "No es primo"
+    Fin Si
+  Fin Si
+Fin
